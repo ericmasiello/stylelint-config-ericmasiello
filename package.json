@@ -1,6 +1,10 @@
 {
   "name": "stylelint-config-ericmasiello",
   "version": "0.1.0",
+  "engines": {
+    "node": ">=8.1.4",
+    "npm": ">=5.0.3"
+  },
   "description": "CSS, SCSS linting configuration",
   "main": "index.js",
   "scripts": {
@@ -22,8 +26,10 @@
     "url": "https://github.com/ericmasiello/stylelint-config-ericmasiello/issues"
   },
   "homepage": "https://github.com/ericmasiello/stylelint-config-ericmasiello#readme",
+  "peerDependencies": {
+    "stylelint": "^8.0.0"
+  },
   "dependencies": {
-    "stylelint": "^7.7.0",
-    "stylelint-config-standard": "^15.0.1"
+    "stylelint-config-standard": "^17.0.0"
   }
 }

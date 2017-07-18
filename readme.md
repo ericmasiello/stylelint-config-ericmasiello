@@ -1,9 +1,11 @@
 ## stylelint-config-ericmasiello
 
-Follow these directions to add to your project:
+_"A slightly more opinionated stylelint configuration than stylelint-config-standard"_
+
+### Install instructions
 
 ```shell
-yarn add stylelint stylelint-config-ericmasiello -D
+npm install --save-dev stylelint stylelint-config-ericmasiello
 ```
 
 Create a file in the root of your project called .stylelintrc.js with the following contents:
