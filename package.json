@@ -9,7 +9,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "lint:style": "stylelint \"__tests__/**/*.css\""
+    "lint:style": "stylelint \"__tests__/**/*.{scss,css}\""
   },
   "repository": {
     "type": "git",
