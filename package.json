@@ -7,7 +7,9 @@
   },
   "description": "CSS, SCSS linting configuration",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "jest"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ericmasiello/stylelint-config-ericmasiello.git"
@@ -30,5 +32,12 @@
   "dependencies": {
     "stylelint-config-standard": "^18.2.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "jest": "^23.5.0",
+    "jest-preset-stylelint": "^1.3.0",
+    "stylelint": "^9.5.0"
+  },
+  "jest": {
+    "preset": "jest-preset-stylelint"
+  }
 }
