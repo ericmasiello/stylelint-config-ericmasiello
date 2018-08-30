@@ -1,5 +1,9 @@
 .foo.foo.foo.foo {
-  color: red !important;
+  color: red;
+}
+
+.foo .bar .baz .qux {
+  color: green;
 }
 
 #error {

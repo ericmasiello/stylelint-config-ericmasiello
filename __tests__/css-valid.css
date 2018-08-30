@@ -1,3 +1,10 @@
 .foo {
   color: red;
 }
+@media (min-width: 300px) {
+  .foo {
+    color: green;
+
+    background-color: blue;
+  }
+}
