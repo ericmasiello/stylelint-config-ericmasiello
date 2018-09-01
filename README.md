@@ -1,6 +1,6 @@
 ## stylelint-config-ericmasiello
 
-_"A slightly more opinionated stylelint configuration than stylelint-config-standard"_
+_"A slightly more opinionated stylelint configuration than stylelint-config-standard that also white-lists common SCSS directives"_
 
 ### Install instructions
 
@@ -26,7 +26,7 @@ To run the lint configuration, add a `script` to your package.json file. For exa
 
 ```json
 "scripts": {
-  "lint:style": "stylelint 'src/**/*.css'"
+  "lint:style": "stylelint \"src/**/*.{scss,css}\""
 }
 ```
 To run the lint, simply execute:

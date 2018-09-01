@@ -1,0 +1,11 @@
+.foo.foo.foo.foo {
+  color: red;
+}
+
+.foo .bar .baz .qux {
+  color: green;
+}
+
+#error {
+  color: red;
+}

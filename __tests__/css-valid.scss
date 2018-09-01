@@ -1,0 +1,79 @@
+@debug "foo bar";
+
+@mixin fullWidth {
+  width: 100%;
+}
+
+.foo {
+  @include fullWidth();
+}
+
+%partial {
+  color: blue;
+}
+
+.bar {
+  @extend %partial;
+}
+
+@function my-calculation-function($some-number, $another-number) {
+  @if $some-number {
+    @return $some-number + $another-number;
+  }
+  @else {
+    @return 22px;
+  }
+}
+
+.my-module {
+  padding: my-calculation-function(10px, 5px);
+}
+
+@for $i from 1 through 4 {
+  .baz-#{$i} {
+    display: flex;
+  }
+}
+
+$counter: 0;
+
+@while $counter <= 50 {
+  .qux-#{$counter} {
+    display: block;
+  }
+
+  $counter: $counter + 10;
+}
+
+$someTypeProperties: (
+  t1: (size: 38, scaler: 1.1),
+  t2: (size: 30, scaler: 1.2)
+);
+
+@each $key, $properties in $someTypeProperties {
+  @error "error";
+  @warn "warn";
+  @debug "debug";
+}
+
+h1 {
+  font-size: 16px;
+  @at-root {
+    header {
+      margin: 0 auto;
+      width: 98%;
+    }
+  }
+}
+
+@mixin apply-to-ie6-only {
+  * html {
+    @content;
+  }
+}
+
+@include apply-to-ie6-only {
+  .logo {
+    background-image: url(/logo.gif);
+  }
+}
