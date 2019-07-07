@@ -34,9 +34,9 @@
     "stylelint-config-standard": "^18.2.0"
   },
   "devDependencies": {
-    "jest": "^23.5.0",
+    "jest": "^24.8.0",
     "jest-preset-stylelint": "^1.3.0",
-    "stylelint": "^9.5.0"
+    "stylelint": "^9.10.1"
   },
   "jest": {
     "preset": "jest-preset-stylelint"
