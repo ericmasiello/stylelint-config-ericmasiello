@@ -55,4 +55,15 @@ describe('flags warnings with invalid css', () => {
       expect(warnings[0].line).toBe(5);
     });
   });
+
+  it('violates selector-class-pattern', () => {
+    const erroneousLineNumbers = [15, 19, 23, 27, 31, 35];
+    return result.then(data => {
+      const warnings = data.results[0].warnings.filter(warning => warning.rule === 'selector-class-pattern');
+      expect(warnings).toHaveLength(erroneousLineNumbers.length);
+      erroneousLineNumbers.forEach((lineNumber, i) => {
+        expect(warnings[i].line).toBe(lineNumber);
+      });
+    });
+  });
 });

@@ -9,3 +9,29 @@
 #error {
   color: red;
 }
+
+/* Non-BEM Kebab style */
+
+.Foo-bar {
+  color: orange;
+}
+
+.foo-Bar {
+  color: orange;
+}
+
+.foo-bar--Baz {
+  color: orange;
+}
+
+.foo_baz {
+  color: rebeccapurple;
+}
+
+.foo___baz {
+  color: rebeccapurple;
+}
+
+.foo---foo {
+  color: yellow;
+}

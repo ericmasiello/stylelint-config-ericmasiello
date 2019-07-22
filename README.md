@@ -1,6 +1,6 @@
 ## stylelint-config-ericmasiello
 
-_"A slightly more opinionated stylelint configuration than stylelint-config-standard that also white-lists common SCSS directives"_
+_"A slightly more opinionated stylelint configuration than stylelint-config-standard that also white-lists common SCSS directives and enforces kebab-case BEM naming"_
 
 ### Install instructions
 
