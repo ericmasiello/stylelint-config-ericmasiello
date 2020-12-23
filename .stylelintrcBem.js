@@ -1,3 +1,3 @@
-const { bem } = require('./lib');
+const { bem } = require('./');
 
 module.exports = bem;

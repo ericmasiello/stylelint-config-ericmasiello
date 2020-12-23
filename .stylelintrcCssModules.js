@@ -1,3 +1,3 @@
-const { cssModules } = require('./lib');
+const { cssModules } = require('./');
 
 module.exports = cssModules;
