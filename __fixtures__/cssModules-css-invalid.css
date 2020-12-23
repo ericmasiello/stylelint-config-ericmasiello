@@ -1,0 +1,37 @@
+/* Non-BEM/CamelCase style */
+
+.Foo {
+    color: orange;
+}
+
+.foo-bar {
+    color: white;
+}
+
+.fooBar__element {
+    color: royalblue;
+}
+
+.Foo-bar {
+    color: orange;
+}
+
+.foo-Bar {
+    color: orange;
+}
+
+.foo-bar--Baz {
+    color: orange;
+}
+
+.foo_baz {
+    color: rebeccapurple;
+}
+
+.foo___baz {
+    color: rebeccapurple;
+}
+
+.foo---foo {
+    color: yellow;
+}

@@ -1,0 +1,34 @@
+.foo {
+    color: red;
+}
+
+.fooBar {
+    color: orange;
+}
+
+.foo--foo {
+    color: rebeccapurple;
+}
+
+.fooBar--foo {
+    color: yellow;
+}
+
+@media (min-width: 300px) {
+    .foo {
+        color: green;
+        background-color: blue;
+    }
+
+    .fooBar {
+        color: red;
+    }
+
+    .foo--foo {
+        color: greenyellow;
+    }
+
+    .fooBar--foo {
+        color: olive;
+    }
+}
