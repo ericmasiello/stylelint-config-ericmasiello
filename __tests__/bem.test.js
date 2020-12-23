@@ -1,4 +1,4 @@
-const { bemConfig: config } = require('..');
+const { bem: config } = require('..');
 const fs = require('fs');
 const stylelint = require('stylelint');
 
